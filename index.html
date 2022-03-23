@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="public/build/css/app.css">
+</head>
+<body>
+<div class="header">
+    <header class="contenedor">
+        <div class="cajas">
+            <div class="banner">
+                <picture>
+                    <source srcset="/public/build/img/personaje.webp" type="image/webp">
+                    <img loading="lazy" width="500" height="300" src="/public/build/img/personaje.png" alt="imagen banner">
+                </picture>
+            </div>
+            <div class="login">
+                <h1>Formulario de contacto</h1>
+                <form class="formulario" id="formulario">
+                    <legend>Informacion de contacto</legend>
+                    <div class="campo">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" placeholder="Tu email">
+                    </div>
+                    <div class="campo">
+                        <label for="asunto">Asunto: </label>
+                        <input type="text" id="asunto" placeholder="Tu asunto">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Tu mensaje"></textarea>
+                    </div>
+                    <div class="errores">
+                        
+                    </div>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <section class="footer contenedor">
+            <div class="autor">
+                <p>&copy; 2022 CapiDev</p>
+            </div>
+            <div class="redesSociales">
+                <a href="https://www.facebook.com/bryan.chacha.9003"><img src="/public/build/img/facebook.webp" alt="icono facebook"></a>
+                <a href="https://www.instagram.com/chacha_bryan/"><img src="/public/build/img/instagram.svg" alt="icono instagram"></a>
+                <a href="#"><img src="/public/build/img/LinkedIn.svg" alt="icono LinkedIn"></a>
+                <a href="https://github.com/CapiDeveloper"><img src="/public/build/img/github.svg" alt="icono github"></a>
+            </div>
+        </section>
+    </footer>
+</div>
+<script src="public/build/js/app.js"></script>
+</body>
+</html>
